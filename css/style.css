@@ -1,0 +1,21 @@
+@import url(./header.css);
+@import url(./promo.css);
+
+
+
+li {
+    list-style: none;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
