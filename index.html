@@ -7,55 +7,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
 </head>
-<header class="header">
-  <div class="container">
-    <div class="header-block">
-      <div class="header-left">
-        <h2>
-          <a href="#customers" class="logo-header">
-            <span>Web</span>Studio
-          </a>
-        </h2>
-        <nav>
-          <ul class="header_menu">
-            <li class="header_item">
-              <a class="header_link active-link" data-page="page1" href="./index.html">Студія</a>
-            </li>
-            <li class="header_item">
-              <a class="header_link" data-page="page2" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="header_item">
-              <a class="header_link" data-page="page3" href="#contacts">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header-link">
-        <a href="mailto:info@devstudio.com" class="nav-contact-item envelope">
-          <i class="fa-regular fa-envelope fa-bounce"></i>
 
-          info@devstudio.com</a>
-        <a href="tel:+380961111111" class="nav-contact-item tel">
-          <i class="fa-solid fa-mobile-screen-button fa-shake"></i>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-block">
+        <div class="header-left">
+          <h2>
+            <a href="#customers" class="logo-header">
+              <span>Web</span>Studio
+            </a>
+          </h2>
+          <nav>
+            <ul class="header_menu">
+              <li class="header_item">
+                <a class="header_link active-link" data-page="page1" href="./index.html">Студія</a>
+              </li>
+              <li class="header_item">
+                <a class="header_link" data-page="page2" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="header_item">
+                <a class="header_link" data-page="page3" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-link">
+          <a href="mailto:info@devstudio.com" class="nav-contact-item envelope">
+            <i class="fa-regular fa-envelope fa-bounce"></i>
 
-          +38 096 111 11 11</a>
+            info@devstudio.com</a>
+          <a href="tel:+380961111111" class="nav-contact-item tel">
+            <i class="fa-solid fa-mobile-screen-button fa-shake"></i>
+
+            +38 096 111 11 11</a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
-<main>
-  <section class="promo"> 
-    <div class="promo_overlay"> 
-      <h1>Ефективні рішення для<br />вашого бізнесу</h1> 
-      <button class="promo-btn" data-open-modal>Замовити послугу</button> 
-    </div> 
-  </section>
-</main>
-<body>
+  </header>
+  <main>
+    <section class="promo">
+      <div class="promo_overlay">
+        <h1>Ефективні рішення для<br />вашого бізнесу</h1>
+        <button class="promo-btn" data-open-modal>Замовити послугу</button>
+      </div>
+    </section>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal_close" data-close-modal>
+          &times;
+  </main>
+  <footer>
+    <div class="container">
+      
+    </div>
+  </footer>
 </body>
+<script src="./js/modal.js"></script>
 
 </html>

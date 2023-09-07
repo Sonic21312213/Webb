@@ -1,7 +1,5 @@
 .promo { 
-    background: url(../../img/bag.png) center/cover no-repeat; 
-    animation: slideInUp; 
-    animation-duration: 2s; 
+    background: url(../img/bag.png) center / cover no-repeat;
     margin-top: 70px;
 } 
  
