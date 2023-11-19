@@ -1,0 +1,230 @@
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  background-color: rgba(250, 250, 250, 0.8);
+  width: 100%;
+  z-index: 50;
+  top: 0;
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: rgb(0, 0, 0);
+}
+.logo-header span {
+  color: #2196F3;
+}
+
+.header-left h2 {
+  text-decoration: none;
+  color: #212121;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header_menu a {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  transition: 0.5s;
+  color: #212121;
+}
+
+.header_menu a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: -27px;
+  transition: 0.5s;
+  transform: rotateY(90deg);
+}
+
+.header_menu a:hover {
+  color: #2196F3;
+}
+
+.header_menu a:hover::after {
+  content: "";
+  transform: rotate(0deg);
+  border-radius: 2px;
+  background: #2196F3;
+}
+
+.header_menu .active-link {
+  color: #2196F3;
+}
+
+.header_menu .active-link::after {
+  content: "";
+  transform: rotate(0deg);
+  border-radius: 2px;
+  background: #2196F3;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-contact-item {
+  font-weight: 500;
+  font-size: 14px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-contact-item,
+.feature-p,
+.member-job,
+.footer-contact {
+  color: #757575;
+}
+
+hr {
+  border: #ECECEC 0.5px solid;
+  margin: 0;
+}
+
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+
+.header-link {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  gap: 50px;
+}
+
+.header-link i {
+  margin-right: 5px;
+}
+
+.header-link a:hover {
+  color: #2196F3;
+}
+
+.promo {
+  background: url(../img/bag.png) center/cover no-repeat;
+  margin-top: 70px;
+}
+
+.promo_overlay {
+  padding: 200px 0;
+  margin: 0 auto;
+  background: rgba(47, 48, 58, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.promo button {
+  display: block;
+  background-color: #2196F3;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: solid #2196F3;
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  margin: 30px auto 0;
+}
+
+.backdrop {
+  background: rgba(47, 48, 58, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  width: 528px;
+  height: 581px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal_close {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.modal h1 {
+  color: #757575;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
